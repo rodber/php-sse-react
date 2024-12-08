@@ -17,7 +17,7 @@ class BufferedChannel
 
     private $streams = array();
 
-    public function __construct(Encoder $encoder = null)
+    public function __construct(?Encoder $encoder = null)
     {
         if ($encoder === null) {
             $encoder = new Encoder();
