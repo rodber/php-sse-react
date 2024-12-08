@@ -21,11 +21,6 @@
             "email": "rodolfo@chevere.org"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Clue\\React\\Sse\\": "src/"
-        }
-    },
     "require": {
         "php": ">=7.4",
         "react/event-loop": "^1.4",
@@ -33,7 +28,17 @@
         "react/stream": "^1.3"
     },
     "require-dev": {
-        "clue/redis-react": "^2.6",
-        "phpunit/phpunit": "^9.5"
+        "clue/redis-react": "^2.4",
+        "phpunit/phpunit": "^9.6 || ^7.5 || ^4.8.36"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clue\\React\\Sse\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Clue\\React\\Tests\\Sse\\": "tests/"
+        }
     }
 }

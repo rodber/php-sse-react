@@ -3,6 +3,7 @@
 /.gitignore export-ignore
 /examples/ export-ignore
 /phpunit.xml.dist export-ignore
+/phpunit.xml.legacy export-ignore
 /tests/ export-ignore
 
 *.php diff=php
