@@ -1,7 +1,7 @@
-# clue/sse-react
+# rodber/php-sse-react
 
-[![CI status](https://github.com/clue/php-sse-react/actions/workflows/ci.yml/badge.svg)](https://github.com/clue/php-sse-react/actions)
-[![installs on Packagist](https://img.shields.io/packagist/dt/clue/sse-react?color=blue&label=installs%20on%20Packagist)](https://packagist.org/packages/clue/sse-react)
+[![CI status](https://github.com/rodber/php-sse-react/actions/workflows/ci.yml/badge.svg)](https://github.com/rodber/php-sse-react/actions)
+[![installs on Packagist](https://img.shields.io/packagist/dt/rodber/php-sse-react?color=blue&label=installs%20on%20Packagist)](https://packagist.org/packages/rodber/php-sse-react)
 
 Streaming, async HTML5 Server-Sent Events server (aka. SSE or EventSource), built on top of [React PHP](http://reactphp.org/).
 
@@ -22,7 +22,7 @@ At the moment, this will install the latest development version:
 ```json
 {
     "require": {
-        "clue/sse-react": "dev-master"
+        "rodber/php-sse-react": "^0.2"
     }
 }
 ```
